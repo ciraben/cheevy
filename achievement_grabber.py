@@ -63,6 +63,13 @@ parser.add_argument(
     help="Check your clan's achievements. (Achievement-grabber only reports your personal achievements by default.)",
     action="store_true",
 )
+parser.add_argument(
+    "-i",
+    "--include",
+    default=False,
+    help="Include current game results. In order to use this option, you must first manually paste the results of the in-game #achievements command into `dump.txt`, and update as needed. (Automating in-game commands would be botting.) Please be gentle with this kinda janky feature.",
+    action="store_true",
+)
 args = parser.parse_args()
 
 # get username
@@ -75,12 +82,14 @@ def get_name(f):
     f.seek(0)
     f.truncate()
     f.write(args.name)
-try:
-    with open("name", "x+") as file:
-       get_name(file)
-except FileExistsError:
-    with open("name", "r+") as file:
-       get_name(file)
+def open_(filename, fun):
+    try:
+        with open(filename, "x+") as file:
+           fun(file)
+    except FileExistsError:
+        with open(filename, "r+") as file:
+           fun(file)
+open_("name", get_name)
 
 # read from user page
 r = requests.get("https://www.hardfought.org/tnnt/players/" + args.name + ".html")
@@ -108,6 +117,40 @@ elif args.undone:
 else:
     achievements = soup.find_all(class_ = "achieve-item")
 
+# read from dump.txt
+dump = ""
+current = {}
+if args.include:
+    try:
+        with open("dump.txt", 'r') as f:
+            dump = f.read().split('\n')
+    except FileNotFoundError:
+        with open("dump.txt", 'x') as f:
+            pass
+        print("To use --include, first paste #achievements command results into `dump.txt`.")
+        input("Press ENTER to continue.")
+
+    for line in dump:
+        # for example,
+        # │[X] #V11 "Anti-Stoner" - etc.
+        m = re.search('\[(.)\] #... \"(.+)\"', line)
+        if m:
+            truth = True if m.group(1) == 'X' else False
+            title = m.group(2).lower()
+            current[title] = truth
+
+# For the following two achievements, punctuation differs between
+# website text      &      in-game #achievements text:
+#
+# Bell, Book and Candle    Bell, Book, and Candle
+# Boulder Pusher           Boulder-Pusher
+def cross_check(label):
+    if label == "Bell, Book and Candle":
+        label = "Bell, Book, and Candle"
+    elif label == "Boulder Pusher":
+        label = "Boulder-Pusher"
+    return (label.lower() in current) and current[label.lower()]
+
 for tag in achievements:
     string = tag.string.strip()
 
@@ -119,12 +162,22 @@ for tag in achievements:
         else:
             continue
 
+    # Spelling Test:
+    #
+    # if string.lower() not in current:
+    #     print(string + "    " + list(current.keys())[achievements.index(tag)])
+    # continue
+    #
+
     # set 37 char limit
     if len(string) > 37:
-        string = string[:34] + "..."
-    space = " " * (41 - len(string))
-    if tag['class'].__contains__("achieved"):
+        string_fit = string[:34] + "..."
+    else:
+        string_fit = string
+    space = " " * (41 - len(string_fit))
+    if tag['class'].__contains__("achieved")  or (args.include and cross_check(string)):
         status = "\033[92m{}\033[00m " .format(u"\u2713")
     else:
       status = "\033[91m{}\033[00m " .format("x")
-    print(status + string + space + tag['title'])
+    print(status + string_fit + space + tag['title'])
+
