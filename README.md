@@ -41,7 +41,7 @@ See `./achievement_grabber.py --help` for more options.
 
 ## Including Current Game Achievements
 
-To include current game results in `achievement-grabber.py` output, you must first manually paste the results of the in-game #achievements command into `dump.txt`, and update as needed. (Automating this would be botting.)
+To include current game results in `achievement-grabber.py` output, you must first manually paste the results of the in-game `#achievements` command into `dump.txt`, and update as needed. (Automating this would be botting, which is against tournament rules.)
 
 This means logging into your current game, typing in the `#achievements` extended command, and choosing option `e` (or `b`).
 Then paste the text output from your screen into `dump.txt`. Repeat for each page - order doesn't matter.
@@ -57,14 +57,14 @@ $ ./achievement-grabber.py -is bullwhip
 x Indiana Jones                            Disarm a monster with a bullwhip
 ```
 
-You can get a full night's sleep before your ascension run, without having to remember whether you paid the Oracle on your way down.
+You can get a full night's sleep before your ascension run, without having to recall whether you nabbed that Oracle achievement on the way down.
 
 ```bash
 $ ./achievement-grabber.py -is oracle
 x Sage Advice                              Consult the Oracle
 ```
 
-... or check if you can put any of those extra wands to use before hopping into the Planes.
+And you can easily check whether those extra wands are worth something before dumping them.
 
 ```bash
 $ ./achievement-grabber.py -uis wand
@@ -76,4 +76,4 @@ x Wanton Waste                             Break an identified, charged wand of 
 x Mikado                                   Identify all wands
 ```
 
-See `achievement-grabber.py -h` for a full list of command options.
+With just a few keystrokes, `achievement-grabber.py` takes care of searching and cross-referencing achievements for you, and keeps your focus on the game.
