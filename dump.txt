@@ -1,0 +1,5 @@
+Paste in-game #achievements command output here. Include all pages - order doesn't matter.
+
+It's fine to paste surrounding text too, or the whole window, no worries about that.
+
+See `sample-dump.txt` if you're unsure. Works with curses or tty.
