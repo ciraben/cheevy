@@ -13,7 +13,7 @@ import argparse
 
 # argparse
 parser = argparse.ArgumentParser(
-    description="Scrape TNNT clan achievements from hardfought."
+    description="Scrape TNNT achievements from hardfought."
 )
 done_group = parser.add_mutually_exclusive_group()
 done_group.add_argument(
@@ -67,7 +67,7 @@ parser.add_argument(
     "-i",
     "--include",
     default=False,
-    help="Include current game results. In order to use this option, you must first manually paste the results of the in-game #achievements command into `dump.txt`, and update as needed. (Automating in-game commands would be botting.) Please be gentle with this kinda janky feature.",
+    help="Include current game results. In order to use this option, you must first manually paste the results of the in-game #achievements command into `dump.txt`, and update as needed. (Automating this would be botting.) Please be gentle with this baby feature.",
     action="store_true",
 )
 args = parser.parse_args()
@@ -110,14 +110,10 @@ if args.clan:
     r = requests.get("https://www.hardfought.org/tnnt/" + clan)
     soup = BeautifulSoup(r.text, 'html.parser')
 
-if args.done:
-    achievements = soup.find_all(class_ = "achieved")
-elif args.undone:
-    achievements = soup.find_all(class_ = "not-achieved")
-else:
-    achievements = soup.find_all(class_ = "achieve-item")
 
-# read from dump.txt
+achievements = soup.find_all(class_ = "achieve-item")
+
+# process dump.txt
 dump = ""
 current = {}
 if args.include:
@@ -135,9 +131,8 @@ if args.include:
         # │[X] #V11 "Anti-Stoner" - etc.
         m = re.search('\[(.)\] #... \"(.+)\"', line)
         if m:
-            truth = True if m.group(1) == 'X' else False
             title = m.group(2).lower()
-            current[title] = truth
+            current[title] = True if m.group(1) == 'X' else False
 
 # For the following two achievements, punctuation differs between
 # website text      &      in-game #achievements text:
@@ -151,15 +146,26 @@ def cross_check(label):
         label = "Boulder-Pusher"
     return (label.lower() in current) and current[label.lower()]
 
+# print 'em
 for tag in achievements:
     string = tag.string.strip()
+
+    # get status
+    if tag['class'].__contains__("achieved") or (args.include and cross_check(string)):
+        is_achieved = True
+    else:
+        is_achieved = False
+
+    # filter done/undone
+    if args.done and not is_achieved:
+        continue
+    elif args.undone and is_achieved:
+        continue
 
     # filter search
     if args.search:
         args.search = args.search.lower()
-        if ((args.search in tag['title'].lower()) or (args.search in string.lower())):
-            pass
-        else:
+        if not ((args.search in tag['title'].lower()) or (args.search in string.lower())):
             continue
 
     # Spelling Test:
@@ -175,9 +181,9 @@ for tag in achievements:
     else:
         string_fit = string
     space = " " * (41 - len(string_fit))
-    if tag['class'].__contains__("achieved")  or (args.include and cross_check(string)):
+    if is_achieved:
         status = "\033[92m{}\033[00m " .format(u"\u2713")
     else:
-      status = "\033[91m{}\033[00m " .format("x")
+        status = "\033[91m{}\033[00m " .format("x")
     print(status + string_fit + space + tag['title'])
 

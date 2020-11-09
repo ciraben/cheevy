@@ -1,0 +1,253 @@
+[X] #V01 "Ringing In My Ears" - Get the Bell of Opening                                                             │n)                                                            │
+│[X] #V02 "Feel The Burn" - Enter Gehennom                                                                           │                                                              │
+│[X] #V03 "Emerging Into The Light" - Get the Candelabrum of Invocation                                              │alibur (weapon in hand)                                       │
+│[X] #V04 "Weighing of the Heart" - Get the Book of the Dead                                                         │ named poi/hot/col/slp/zap/dis (wielded in other hand)        │
+│[X] #V05 "Bell, Book, and Candle" - Perform the Invocation Ritual                                                   │                                                              │
+│[X] #V06 "My Preciousss" - Get the Amulet of Yendor                                                                 │ather hat (being worn)                                        │
+│[ ] #V07 "From the Dungeon They Came" - Enter the Planes                                                            │r of gauntlets of dexterity (being worn)                      │
+│[ ] #V08 "The Halls of the Gods" - Enter the Astral Plane                                                           │r of speed boots (being worn)                                 │
+│[X] #V09 "Are You Feeling Lucky" - Get the luckstone from Mines' End                                                │g boots                                                       │
+│[X] #V10 "Boulder-Pusher" - Finish Sokoban                                                                          │n)                                                            │
+│[X] #V11 "Anti-Stoner" - Kill Medusa                                                                                │                                                              │
+│[X] #001 "Back to Civilisation" - Step onto the Minetown altar                                                      │g worn)                                                       │
+│[X] #002 "Sage Advice" - Consult the Oracle                                                                         │l (being worn)                                                │
+│[X] #003 "The Archetypal Hero" - Get admitted to the Quest                                                          │                                                              │
+│[ ] #004 "Musical Mastermind" - Learn the passtune                                                                  │e of ur lizness                                               │
+│[X] #005 "Indulgences" - Buy protection from a priest                                                               │                                                              │
+│[ ] #006 "Part-time Statue" - Survive stoning                                                                       │ontaining 91 items                                            │
+│[X] #007 "The Blob" - Survive sliming                                                                               │)                                                             │
+│[ ] #008 "Captain Ahab" - Survive being grabbed by a sea monster                                                    │The Orb of Fate (0:5)                                         │
+│[ ] #009 "Furry Little Problem" - Cure lycanthropy                                                                  │                                                              │
+│[ ] #010 "New Lease on Life" - Cure deathly illness                                                                 │                                                              │
+│[X] #011 "The Royal Treatment" - Sit on a throne                                                                    │                                                              │
+│[ ] #012 "It'll Turn Up Later" - Drop a ring in a sink                                                              │                                                              │
+│[ ] #013 "Nine for Mortal Men Doomed to Die ... Again" - Kill all nine Nazgul                                       │                                                              │
+│[ ] #014 "Furious" - Kill all three erinyes                                                                         │                                                              │
+│[ ] #015 "Orthodoxy" - Convert an altar                                                                             │                                                              │
+│[ ] #016 "Always Talk to the Wise Old Man" - Chat with Izchak                                                       │                                                              │
+│[ ] #017 "Isaac Newton" - Get fruit by kicking a tree                                                               │                                                              │
+│[X] #018 "Dungeon Economics" - Buy or sell something at a shop                                                      │                                                              │
+│[ ] #019 "Stop, Thief!" - Be chased by the Keystone Kops                                                            │                                                              │
+│[X] #020 "Wash it Clean" - Uncurse an item in a fountain                                                            │ hand)                                                        │
+│[X] #021 "Well-Read" - Learn a level 5+ spell                                                                       │ght hand)                                                     │
+│[X] #022 "Pet Whisperer" - Tame a monster by feeding it                                                             │                                                              │
+│[ ] #023 "Beast Master" - Tame a monster without using food                                                         │                                                              │
+│[ ] #024 "The Chosen One" - Get crowned                                                                             │                                                              │
+│[ ] #025 "Go Forth and Smite" - Receive an artifact gift from your deity                                            │                                                              │
+│[X] #026 "Some Watery Tart" - Be gifted Excalibur                                                                   │                                                              │
+│[ ] #027 "Hand Crafted" - Make a dragon scale mail                                                                  │eal boy                                                       │
+│[X] #028 "A Little Light Larceny" - Get robbed by a nymph                                                           │n)                                                            │
+│[X] #029 "Pot of Greed" - Have your purse lightened by a leprechaun                                                 │                                                              │
+│[X] #030 "The Birds and the Bees" - Dally with a foocubus                                                           │alibur (weapon in hand)                                       │
+│[ ] #031 "The Most Dangerous Game" - Catch a monster in a trap set by you                                           │ named poi/hot/col/slp/zap/dis (wielded in other hand)        │
+│[ ] #032 "Minetown Avenger" - Kill every orc in Orctown                                                             │                                                              │
+│[ ] #033 "All Clear" - Kill all hostiles in the Big Room                                                            │ather hat (being worn)                                        │
+│[ ] #034 "Liberated" - Get yourself unpunished                                                                      │r of gauntlets of dexterity (being worn)                      │
+│[ ] #035 "It's Called That For a Reason" - Come to earth by levitating over a sink                                  │r of speed boots (being worn)                                 │
+│[ ] #036 "Diamond in the Rough" - Identify a gem with a touchstone                                                  │g boots                                                       │
+│[X] #037 "Scribe" - Write a scroll with a magic marker                                                              │n)                                                            │
+│[ ] #038 "First Edition" - Write a book                                                                             │                                                              │
+│[ ] #039 "Dragon Rider" - Ride a dragon                                                                             │g worn)                                                       │
+│[ ] #040 "Motherhood" - Lay an egg                                                                                  │l (being worn)                                                │
+│[X] #041 "Shimmer" - Fireproof an item                                                                              │                                                              │
+│[X] #042 "They Like Shiny Things" - Throw a gem at a unicorn                                                        │e of ur lizness                                               │
+│[X] #043 "Reincarnation Cancelled" - Tin a troll                                                                    │                                                              │
+│[X] #044 "Kill it Twice" - Destroy a ghost                                                                          │ontaining 91 items                                            │
+│[ ] #045 "Only Mostly Dead" - Revive a corpse                                                                       │)                                                             │
+│[ ] #046 "Buffy" - Destroy an undead with #turn                                                                     │The Orb of Fate (0:5)                                         │
+│[X] #047 "Wasn't a Meal, Wasn't Ready, And You Shouldn't Have Eaten It" - Eat a military ration                     │                                                              │
+│[X] #048 "Have Fun Storming the Castle" - Blow up the Castle drawbridge                                             │                                                              │
+│[ ] #049 "Insert Quarter to Continue" - Get life-saved                                                              │                                                              │
+│[ ] #050 "What It Was Made For" - Kill a appropriate monster with a Bane weapon                                     │                                                              │
+│[X] #051 "Buried Treasure" - Dig up a grave not in a graveyard                                                      │                                                              │
+│[X] #052 "Holy War" - Kill a priest of Moloch                                                                       │                                                              │
+│[ ] #053 "Movers and Shakers" - Cause an earthquake                                                                 │                                                              │
+│[ ] #054 "Snake Charmer" - Pacify a snake with a flute                                                              │                                                              │
+│[X] #055 "Dragonslayer" - Kill a dragon                                                                             │                                                              │
+│[X] #056 "Tin Foil Hat" - Dodge a brainsucking attack                                                               │                                                              │
+│[ ] #057 "Right Back at Ya" - Hit an enemy with a thrown boomerang                                                  │                                                              │
+│[X] #058 "It Burnsss" - Deal silver damage to a silver-hating monster                                               │ hand)                                                        │
+│[X] #059 "Arrakis" - Make a crysknife                                                                               │ght hand)                                                     │
+│[ ] #060 "Kop Training Program" - Kill a monster with a rubber hose                                                 │                                                              │
+│[ ] #061 "Obligatory Pointy Hat" - Put on a cornuthaum as a wizard                                                  │                                                              │
+│[ ] #062 "Hobbit Skin" - Wear a mithril coat                                                                        │                                                              │
+│[ ] #063 "The Words of the Prophets" - Read 3 random graffiti                                                       │                                                              │
+│                                                                                                                    │                                                              │
+││[X] #064 "Are You Still Pudding Farming" - Split a pudding                                                          │                                                              │
+│[ ] #065 "Wearable Snack" - Wear a meat ring                                                                        │eal boy                                                       │
+│[ ] #066 "Frozen Treats" - Loot an ice box                                                                          │n)                                                            │
+│[ ] #067 "Pygmalion" - Create a monster from a figurine                                                             │                                                              │
+│[ ] #068 "Nerd" - Read a spellbook while wearing lenses and a T-shirt                                               │alibur (weapon in hand)                                       │
+│[X] #069 "Recharged" - Charge an object                                                                             │ named poi/hot/col/slp/zap/dis (wielded in other hand)        │
+│[ ] #070 "Get Your Kicks" - Kick an item embedded in a wall or rock                                                 │                                                              │
+│[ ] #071 "Spiderman" - Grab an item with a grappling hook                                                           │ather hat (being worn)                                        │
+│[ ] #072 "More Light" - Refill the Candelabrum after it burns out after the Invocation                              │r of gauntlets of dexterity (being worn)                      │
+│[ ] #073 "Balanced Diet" - Eat one of each type of produce in one game                                              │r of speed boots (being worn)                                 │
+│[ ] #074 "Smorgasbord" - Eat every type of food in the game                                                         │g boots                                                       │
+│[X] #075 "Fill 'Er Up" - Fill an oil lamp with a potion of oil                                                      │n)                                                            │
+│[X] #076 "Curse the Darkness" - Identify a potion of oil by applying it                                             │                                                              │
+│[ ] #077 "Bright Light, Bright Light" - Kill gremlin with any light source                                          │g worn)                                                       │
+│[X] #078 "Chemistry 101" - Alchemize two potions in an established recipe                                           │l (being worn)                                                │
+│[X] #079 "Get Your Gas Mask" - Kill a monster with a stinking cloud                                                 │                                                              │
+│[ ] #080 "Escape to Discworld" - Read a Terry Pratchett novel                                                       │e of ur lizness                                               │
+│[ ] #081 "Near Death Experience" - #chat to Death while carrying a Terry Pratchett novel                            │                                                              │
+│[ ] #082 "Mineralogist" - Identify every type of valuable gemstone                                                  │ontaining 91 items                                            │
+│[ ] #083 "Prize Inside!" - Get a spellbook by breaking a randomly-generated statue                                  │)                                                             │
+│[ ] #084 "Ding-a-Ling" - Summon a nymph by ringing a cursed bell                                                    │The Orb of Fate (0:5)                                         │
+│[ ] #085 "Best Friends Forever" - Take your starting pet to full adulthood                                          │                                                              │
+│[ ] #086 "Diver" - Dive into a moat or pool and retrieve an item from the bottom                                    │                                                              │
+│[ ] #087 "Ceiling Clinging Commute" - Ride a wumpus over water                                                      │                                                              │
+│[ ] #088 "How Much Wood?" - Kill or tame a woodchuck                                                                │                                                              │
+│[ ] #089 "Storm the Gates of Heaven" - Kill an Archon                                                               │                                                              │
+│[ ] #090 "Shifty" - Tame a shapeshifter in any way                                                                  │                                                              │
+│[ ] #091 "Cat Lady" - Tame seven �~@~\f�~@~] in the course of one game                                              │                                                              │
+│[ ] #092 "Collapse the Wavefunction" - Open the box containing Schroedinger's Cat                                   │                                                              │
+│[ ] #093 "I'm Free! I'm Free!" - Free a prisoner                                                                    │                                                              │
+│[ ] #094 "Pet Rescue" - Free a pet from a trap that you didn't create yourself                                      │                                                              │
+│[ ] #095 "Spam, Spam, Spam" - Read a scroll of mail                                                                 │                                                              │
+│[ ] #096 "Superfood" - Gain strength by eating royal jelly                                                          │ hand)                                                        │
+│[X] #097 "You Are What You Eat" - Gain an intrinsic by eating a corpse (or tin or glob)                             │ght hand)                                                     │
+│[ ] #098 "The Art of the Deal" - Bankrupt a shopkeeper by getting all their money                                   │                                                              │
+│[ ] #099 "Distinction Without Difference" - Polymorph a pet using a polytrap                                        │                                                              │
+│[ ] #100 "Transgender" - Put on an amulet of change                                                                 │                                                              │
+│[ ] #101 "Father Figure" - Hatch an egg not laid by you and have it come out tame                                   │                                                              │
+│[X] #102 "Hello, Nurse!" - Get a nurse to heal you or raise your max HP                                             │                                                              │
+│[X] #103 "It's The Pits" - Kill something while you are stuck in a pit                                              │eal boy                                                       │
+│[X] #104 "Never Saw It Coming" - Kill invisible monster without see invisible                                       │n)                                                            │
+│[X] #105 "Shafted" - Fall down a shaft                                                                              │                                                              │
+│[ ] #106 "Potions of Booze Cost More Than That" - Get two bits for an ale from a priest                             │alibur (weapon in hand)                                       │
+│[ ] #107 "Horatius at the Bridge" - Extinct soldiers or Keystone Kops                                               │ named poi/hot/col/slp/zap/dis (wielded in other hand)        │
+│[ ] #108 "Who's That Pretty Girl in the Mirror, There?" - Deflect a nymph with a mirror                             │                                                              │
+│[ ] #109 "Money Talks" - Bribe a demon lord with at least 25000 gold                                                │ather hat (being worn)                                        │
+│[ ] #110 "Breaking and Entering" - Enter a vault                                                                    │r of gauntlets of dexterity (being worn)                      │
+│[X] #111 "Who Was That David Person Anyway?" - Enter a treasure zoo                                                 │r of speed boots (being worn)                                 │
+│[X] #112 "Absolute Monarchy" - Enter a throne room                                                                  │g boots                                                       │
+│[X] #113 "They're After Me Lucky Charms" - Enter a leprechaun hall                                                  │n)                                                            │
+│[X] #114 "Hive Mind" - Enter a beehive                                                                              │                                                              │
+│[X] #115 "Day of the Dead" - Enter a graveyard                                                                      │g worn)                                                       │
+│[X] #116 "Team a Headquarters" - Enter an anthole                                                                   │l (being worn)                                                │
+│[ ] #117 "Halt, Who Goes There?" - Enter a barracks                                                                 │                                                              │
+│[X] #118 "Dungeon Ecology" - Enter a swamp                                                                          │e of ur lizness                                               │
+│[ ] #119 "Statue Showcase" - Enter a cockatrice nest                                                                │                                                              │
+│[X] #120 "Asmodead" - Kill Asmodeus                                                                                 │ontaining 91 items                                            │
+│[X] #121 "Fly Swatter" - Kill Baalzebub                                                                             │)                                                             │
+│[X] #122 "That Wand is Mine" - Kill Orcus                                                                           │The Orb of Fate (0:5)                                         │
+│[X] #123 "Squish Squish" - Kill Juiblex                                                                             │                                                              │
+│[ ] #124 "Demogorgone" - Kill Demogorgon                                                                            │                                                              │
+│[ ] #125 "Yee-No-Go" - Kill Yeenoghu                                                                                │                                                              │
+│[ ] #126 "Geryon-Slayer" - Kill Geryon                                                                              │                                                              │
+│[X] #127 "Dispater-Dispatcher" - Kill Dispater                                                                      │                                                              │
+│[ ] #128 "Conqueror of Death" - Kill Death                                                                          │                                                              │
+│[ ] #129 "Curer of Pestilence" - Kill Pestilence                                                                    │                                                              │
+│[ ] #130 "Feeder of Famine" - Kill Famine                                                                           │                                                              │
+│[ ] #131 "Under New Management" - Change your alignment by any means                                                │                                                              │
+│[ ] #132 "Heisenberg" - Become uncertain about your position or velocity                                            │                                                              │
+│[ ] #133 "Who You Gonna Call?" - Get scared by a ghost                                                              │                                                              │
+│[X] #134 "Groundhog Day" - Return to a forgotten level                                                              │ hand)                                                        │
+│[X] #135 "Tainted" - Dip an item in unholy water                                                                    │ght hand)                                                     │
+│[X] #136 "Hydrochloric" - Dissolve iron bars with acid                                                              │                                                              │
+│[ ] #137 "Predictably, Nothing Happens" - Break an identified wand of nothing                                       │                                                              │
+│[ ] #138 "Neutralized" - Cancel a monster                                                                           │                                                              │
+│[ ] #139 "Magivore" - Gain a magical intrinsic by eating a piece of jewelry                                         │                                                              │
+│[ ] #140 "Rope-a-Dope" - Kill a monster with a thrown aklys                                                         │                                                              │
+│[ ] #141 "Panacea" - Neutralize a harmful potion with a unicorn horn                                                │eal boy                                                       │
+│[ ] #142 "Hulk Smash" - Kill a monster with a heavy iron ball                                                       │n)                                                            │
+│[ ] #143 "Croesus Competitor" - Finish a game carrying at least 50000 gold                                          │                                                              │
+│[ ] #144 "Croesus Buyout" - Finish a game carrying at least 100000 gold                                             │alibur (weapon in hand)                                       │
+│[ ] #145 "Palantir" - Successfully apply a crystal ball                                                             │ named poi/hot/col/slp/zap/dis (wielded in other hand)        │
+│[ ] #146 "Peak Condition" - Raise all attributes to at least 18                                                     │                                                              │
+│[ ] #147 "Those Who Came Before" - Sight another player's bones pile                                                │ather hat (being worn)                                        │
+│[X] #148 "Imitation Bones" - Step onto the Rogue level fake bones pile                                              │r of gauntlets of dexterity (being worn)                      │
+│[ ] #149 "Replacement Goldfish" - Cast create familiar                                                              │r of speed boots (being worn)                                 │
+│[ ] #150 "Pop the Question" - Give a ring of adornment to a succubus                                                │g boots                                                       │
+│[ ] #151 "No Soup For You!" - Get permanently expelled from the Quest                                               │n)                                                            │
+│[ ] #152 "Discerning Palate" - Gain intrinsic food appraisal                                                        │                                                              │
+│[X] #153 "Playerbanebane" - Kill a soldier ant                                                                      │g worn)                                                       │
+│[ ] #154 "Banishing Spells Not Included" - Summon a demon lord                                                      │l (being worn)                                                │
+│[ ] #155 "Tastes Like Chicken" - Eat chickatrice or cockatrice meat                                                 │                                                              │
+│[ ] #156 "Dust to Dust" - Wrest one last charge from a wand of wishing                                              │e of ur lizness                                               │
+│[ ] #157 "Teetotaler" - Neutralize a potion of booze with an amethyst                                               │                                                              │
+│[X] #158 "Spooky Scary Skeletons" - Get scared by the rattling of a skeleton                                        │ontaining 91 items                                            │
+│[ ] #159 "Ocean's Eleven" - Enter Fort Ludios                                                                       │)                                                             │
+│[ ] #160 "I Did It For The Money" - Kill Croesus                                                                    │The Orb of Fate (0:5)                                         │
+│[ ] #161 "Gullible" - Lie to a vault guard about your name                                                          │                                                              │
+│[X] #162 "Luck of the Grasshopper" - Reach +13 Luck                                                                 │                                                              │
+│[ ] #163 "Murphy's Law" - Reach -13 Luck                                                                            │                                                              │
+│[X] #164 "Looking Slick" - Grease a piece of armor                                                                  │                                                              │
+│[X] #165 "Watch Your Footing" - Step onto the vibrating square                                                      │                                                              │
+│[ ] #166 "The Grand Tour" - Visit each high altar on the Astral Plane                                               │                                                              │
+│[ ] #167 "Friends Not Food" - Receive the Quest with vegetarian conduct intact                                      │                                                              │
+│[ ] #168 "Animal Rights Activist" - Receive the Quest with vegan conduct intact                                     │                                                              │
+│[ ] #169 "Anti Gulp" - Receive the Quest with foodless conduct intact                                               │                                                              │
+│[ ] #170 "No Help from Above" - Receive the Quest with atheist conduct intact                                       │                                                              │
+│[ ] #171 "Wax On Wax Off" - Receive the Quest with weaponless conduct intact                                        │                                                              │
+│[ ] #172 "Thou Shalt Not Kill" - Receive the Quest with pacifist conduct intact                                     │ hand)                                                        │
+│[ ] #173 "Me No Do Words Good" - Receive the Quest with illiterate conduct intact                                   │ght hand)                                                     │
+│[X] #174 "Lost My Transmutation License" - Receive the Quest with polypileless conduct intact                       │                                                              │
+│[ ] #175 "True to Form" - Receive the Quest with polyselfless conduct intact                                        │                                                              │
+│[ ] #176 "Self Sufficient" - Receive the Quest with wishless conduct intact                                         │                                                              │
+│[X] #177 "Leave the Artifacts to the Gods" - Receive the Quest with artifact wishless conduct intact                │                                                              │
+│[ ] #178 "Feeling Your Way" - Receive the Quest with zen (permablind) conduct intact                                │                                                              │
+│[ ] #179 "Going Commando" - Receive the Quest with nudist conduct intact                                            │eal boy                                                       │
+│[X] #180 "Make Love, Not War" - Receive the Quest with genocideless conduct intact                                  │n)                                                            │
+│[ ] #181 "No Help From The Floor" - Receive the Quest with Elberethless conduct intact                              │                                                              │
+│[ ] #182 "It's A Wonderful Trip" - Receive the Quest with permahallu conduct intact                                 │alibur (weapon in hand)                                       │
+│[ ] #183 "Silent World" - Receive the Quest with permadeaf conduct intact                                           │ named poi/hot/col/slp/zap/dis (wielded in other hand)        │
+│[ ] #184 "Keep Your Fancy Toys" - Receive the Quest with artifactless conduct intact                                │                                                              │
+│[X] #185 "New Dungeon, Never Occupied" - Receive the Quest with bonesless conduct intact                            │ather hat (being worn)                                        │
+│[ ] #186 "Extradimensionally Challenged" - Receive the Quest with swapchestless conduct intact                      │r of gauntlets of dexterity (being worn)                      │
+│[ ] #187 "Fur Allergy" - Receive the Quest with petless conduct intact                                              │r of speed boots (being worn)                                 │
+│[X] #188 "Death Isn't So Cheap" - Receive the Quest with survivor conduct intact                                    │g boots                                                       │
+│[X] #189 "It's Dangerous To Go Alone! Take This" - Put an item into a swap chest                                    │n)                                                            │
+│[X] #190 "The True Dungeon Masters" - Chat with an active devteam member                                            │                                                              │
+│[ ] #191 "There Is No Spoon" - Finish the task the devteam requires of you                                          │g worn)                                                       │
+│[ ] #192 "DIRGE" - Instakill an enemy with poison                                                                   │l (being worn)                                                │
+│[ ] #193 "Gender Bender" - Change gender two or more times                                                          │                                                              │
+│[ ] #194 "The Deathly Hallows" - Wield a wand of death while wearing an invisibility cloak and amulet of life saving│e of ur lizness                                               │
+│[X] #195 "Indiana Jones" - Disarm a monster with a bullwhip                                                         │                                                              │
+│[X] #196 "Pilgrim" - Visit every type of aligned altar                                                              │ontaining 91 items                                            │
+│[ ] #197 "Wanton Waste" - Break an identified, charged wand of wishing                                              │)                                                             │
+│[X] #198 "Poseidon" - Kill a sea monster with a trident                                                             │The Orb of Fate (0:5)                                         │
+│[X] #199 "It's 4:20 Somewhere" - Stone a monster                                                                    │                                                              │
+│[ ] #200 "Orpheus" - Activate a drawbridge with the passtune                                                        │                                                              │
+│[X] #201 "Michelin Guide" - Identify both sources of food detection                                                 │                                                              │
+│[ ] #202 "All You Ever Wanted" - Get a wish from every wish source                                                  │                                                              │
+│[X] #203 "Touch It With A 10 Foot Pole" - Kill a floating eye with a polearm                                        │                                                              │
+│[ ] #204 "Jeweler" - Identify all rings                                                                             │                                                              │
+│[ ] #205 "Mikado" - Identify all wands                                                                              │                                                              │
+│[ ] #206 "King of Bling" - Identify all amulets                                                                     │                                                              │
+│[ ] #207 "Bookworm" - Identify all spellbooks                                                                       │                                                              │
+│[ ] #208 "Scholar" - Identify all scrolls                                                                           │                                                              │
+│[ ] #209 "Alchemist" - Identify all potions                                                                         │                                                              │
+│[ ] #210 "Fashionista" - Identify all non-obvious cloaks, helms, boots, and gloves                                  │ hand)                                                        │
+│[ ] #211 "Minesweeper" - Disarm all land mines in Fort Ludios without blowing any up                                │ght hand)                                                     │
+│[ ] #212 "Hyperliterate" - Read every readable item in the game                                                     │                                                              │
+│[ ] #213 "Civilized Cooking" - Open a tin with a tin opener                                                         │                                                              │
+│[ ] #214 "007" - Unlock something with a credit card                                                                │                                                              │
+│[ ] #215 "Bob Ross" - Release a picture-painting demon from a camera                                                │                                                              │
+│[ ] #216 "Got No Talent" - Scare something by playing music                                                         │                                                              │
+│[ ] #217 "Cookie Monster" - Read a fortune without eating its cookie                                                │eal boy                                                       │
+│[X] #218 "Say Hello To My Evil Friend" - Have a non-guaranteed demon lord gated in or summoned                      │n)                                                            │
+│[X] #219 "Death onna Stick" - Kill a member of 25 different monster species                                         │                                                              │
+│[X] #220 "Bring out your Dead" - Kill a member of 50 different monster species                                      │alibur (weapon in hand)                                       │
+│[X] #221 "Diverse Death-Dealer" - Kill a member of 100 different monster species                                    │ named poi/hot/col/slp/zap/dis (wielded in other hand)        │
+│[X] #222 "Grim Reaper" - Kill a member of 200 different monster species                                             │                                                              │
+│[ ] #223 "Gotta Kill 'em All" - Kill a member of all eligible monster species                                       │ather hat (being worn)                                        │
+│[X] #224 "Learn the Alphabet" - Kill a member of each species from a to z                                           │r of gauntlets of dexterity (being worn)                      │
+│[ ] #225 "Make your Mark" - Engrave with an athame                                                                  │r of speed boots (being worn)                                 │
+│[X] #226 "One Hit KO" - Deal a monster its maximum HP or more of damage (minimum 20)                                │g boots                                                       │
+│[ ] #227 "Drink It To The Next Level" - Level up by drinking from a sink                                            │n)                                                            │
+│[ ] #228 "Why Won't You DIE Already" - Kill the Wizard of Yendor 20 or more times                                   │                                                              │
+│[ ] #229 "You're About To Die, You Scrub" - Get a special message saying you're about to die, you scrub             │g worn)                                                       │
+│[ ] #230 "Six Pack" - Stock an ice box with 6 or more potions of booze                                              │l (being worn)                                                │
+│[ ] #231 "Bar Brawler" - Kill a monster with HP damage by smashing a bottle on it                                   │                                                              │
+│[ ] #232 "Extreme Omnivore" - Eat an object from every common, edible object class                                  │e of ur lizness                                               │
+│[ ] #233 "Extinctionist Lite" - Genocide 20 or more monster species                                                 │                                                              │
+│[ ] #234 "Dudley's Hero" - Extinct newts                                                                            │ontaining 91 items                                            │
+│[ ] #235 "Ice Jesus" - Walk on top of lava unharmed                                                                 │)                                                             │
+│[ ] #236 "Rare Loot" - Acquire an athame that was generated in the inventory of a lich                              │The Orb of Fate (0:5)                                         │
+│[X] #237 "Boy Scout" - Complete Sokoban without incurring any penalties for rule-breaking                           │                                                              │
+│[ ] #238 "Sounds Hollow" - Reveal a secret door with a stethoscope                                                  │                                                              │
+│[ ] #239 "DO YOU WANT TO DO THIS BRO? BECAUSE IT'S THUNDERDOME TIME!" - Defeat the NPC from the NPC Deathmatch quest│                                                              │
+│89/250 achievements earned in this game.                                                                            │                                                              │
+│
