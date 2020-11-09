@@ -38,3 +38,42 @@ The first time you run it, `achievement_grabber.py` will prompt you for a [hardf
 By default, only user achievements are reported. For clan achievements, run with `-c` or `--clan` argument.
 
 See `./achievement_grabber.py --help` for more options.
+
+## Including Current Game Achievements
+
+To include current game results in `achievement-grabber.py` output, you must first manually paste the results of the in-game #achievements command into `dump.txt`, and update as needed. (Automating this would be botting.)
+
+This means logging into your current game, typing in the `#achievements` extended command, and choosing option `e` (or `b`).
+Then paste the text output from your screen into `dump.txt`. Repeat for each page - order doesn't matter.
+It's fine to paste surrounding text too, or the whole window, no worries about that.
+See `sample-dump.txt` if you're unsure. Works with curses or tty.
+
+I know this seems like a cumbersome "no bots" work-around, but it's actually pretty handy! Once you have your `dump.txt` in place, you can run subsequent searches for achievements you half-remember needing.
+
+```bash
+$ ./achievement-grabber.py --include --search tree
+✓ Isaac Newton                             Get fruit by kicking a tree
+$ ./achievement-grabber.py -is bullwhip
+x Indiana Jones                            Disarm a monster with a bullwhip
+```
+
+You can get a full night's sleep before your ascension run, without having to remember whether you paid the Oracle on your way down.
+
+```bash
+$ ./achievement-grabber.py -is oracle
+x Sage Advice                              Consult the Oracle
+```
+
+... or check if you can put any of those extra wands to use before hopping into the Planes.
+
+```bash
+$ ./achievement-grabber.py -uis wand
+x That Wand is Mine                        Kill Orcus
+x Predictably, Nothing Happens             Break an identified wand of nothing
+x Dust to Dust                             Wrest one last charge from a wand of wishing
+x The Deathly Hallows                      Wield a wand of death while wearing an invisibility cloak and amulet of life saving
+x Wanton Waste                             Break an identified, charged wand of wishing
+x Mikado                                   Identify all wands
+```
+
+See `achievement-grabber.py -h` for a full list of command options.
