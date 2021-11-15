@@ -92,7 +92,7 @@ def open_(filename, fun):
 open_("name", get_name)
 
 # read from user page
-r = requests.get("https://www.hardfought.org/tnnt/players/" + args.name + ".html")
+r = requests.get("https://tnnt.org/player/" + args.name)
 if r.status_code == 404:
     print(f"Sorry, user {args.name} not found (404).")
     # print("Try \"./achievement_grabber.py -n NAME\" to reset username."))
@@ -104,14 +104,20 @@ soup = BeautifulSoup(r.text, 'html.parser')
 
 # read from clan page
 if args.clan:
-    def has_clan(href):
-        return href and re.compile("clans\/[0-9]+\.html").search(href)
-    clan = soup.find(href=has_clan)["href"]
-    r = requests.get("https://www.hardfought.org/tnnt/" + clan)
+    # def has_clan(href):
+    #     return href and re.compile("clan\/[0-9]+\.html").search(href)
+
+    # grab the clan page from player source
+    clan = soup.find(href=re.compile('\/clan\/'))["href"]
+    # process it
+    r = requests.get("https://tnnt.org" + clan)
     soup = BeautifulSoup(r.text, 'html.parser')
 
 
-achievements = soup.find_all(class_ = "achieve-item")
+# achievements = soup.find_all(class_ = "achieve-item")
+
+# get table id="achievements-table" > tbody > tr
+achievements = soup.find("table", id="achievements-table").find("tbody").find_all("tr")
 
 # process dump.txt
 dump = ""
@@ -148,10 +154,15 @@ def cross_check(label):
 
 # print 'em
 for tag in achievements:
-    string = tag.string.strip()
+    # string = tag.string.strip()
+    innards = tag.text.strip().split('\n')
+    string = innards[1]
 
-    # get status
-    if tag['class'].__contains__("achieved") or (args.include and cross_check(string)):
+    # old get status
+    # if tag['class'].__contains__("achieved") or (args.include and cross_check(string)):
+
+    # new get status
+    if innards[0] == "&check" or (args.include and cross_check(string)):
         is_achieved = True
     else:
         is_achieved = False
@@ -165,15 +176,19 @@ for tag in achievements:
     # filter search
     if args.search:
         args.search = args.search.lower()
-        if not ((args.search in tag['title'].lower()) or (args.search in string.lower())):
+        if not ((args.search in innards[2].lower()) or (args.search in string.lower())):
+        # old
+        # if not ((args.search in tag['title'].lower()) or (args.search in string.lower())):
             continue
 
     # Spelling Test:
+    # to use this, make sure dump.txt contains every cheevo :)
     #
     # if string.lower() not in current:
-    #     print(string + "    " + list(current.keys())[achievements.index(tag)])
+    #     print(string)
+    #     # print(string + "    " + list(current.keys())[achievements.index(tag)])
     # continue
-    #
+
 
     # set 37 char limit
     if len(string) > 37:
@@ -185,5 +200,7 @@ for tag in achievements:
         status = "\033[92m{}\033[00m " .format(u"\u2713")
     else:
         status = "\033[91m{}\033[00m " .format("x")
-    print(status + string_fit + space + tag['title'])
+    # print(status + string_fit + space + tag['title'])
+    print(status + string_fit + space + innards[-1])
+
 
