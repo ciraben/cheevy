@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-"""achievement_grabber.py
+"""cheevy.py
 by Tom Van Manen, released under Hippocratic License 2.1.
 
 A quick CLI tool for grabbing achievements from TNNT (The November Nethack Tournament).
@@ -54,13 +54,13 @@ parser.add_argument(
     metavar="NAME",
     type=str,
     default="",
-    help="Specify your hardfought.org username. Achievement-grabber remembers the last username entered, so you only need to do this once.",
+    help="Specify your hardfought.org username. Cheevy remembers the last username entered, so you only need to do this once.",
 )
 parser.add_argument(
     "-c",
     "--clan",
     default=False,
-    help="Check your clan's achievements. (Achievement-grabber only reports your personal achievements by default.)",
+    help="Check your clan's achievements. (Cheevy only reports your personal achievements by default.)",
     action="store_true",
 )
 parser.add_argument(
@@ -95,7 +95,7 @@ open_("name", get_name)
 r = requests.get("https://tnnt.org/player/" + args.name)
 if r.status_code == 404:
     print(f"Sorry, user {args.name} not found (404).")
-    # print("Try \"./achievement_grabber.py -n NAME\" to reset username."))
+    # print("Try \"./cheevy.py -n NAME\" to reset username."))
     print("(Check your spelling - caps matter!)")
     with open("name", "w") as file:
         pass
