@@ -53,6 +53,7 @@ I know this seems like a cumbersome "no bots" work-around, but it's actually pre
 ```bash
 $ ./cheevy.py --include --search tree
 ✓ Isaac Newton                             Get fruit by kicking a tree
+x Not The Bees                             Get bees by kicking a tree
 $ ./cheevy.py -is bullwhip
 x Indiana Jones                            Disarm a monster with a bullwhip
 ```
@@ -68,7 +69,6 @@ And you can easily check whether those extra wands are worth something before du
 
 ```bash
 $ ./cheevy.py -uis wand
-x That Wand is Mine                        Kill Orcus
 x Predictably, Nothing Happens             Break an identified wand of nothing
 x Dust to Dust                             Wrest one last charge from a wand of wishing
 x The Deathly Hallows                      Wield a wand of death while wearing an invisibility cloak and amulet of life saving
@@ -76,4 +76,4 @@ x Wanton Waste                             Break an identified, charged wand of 
 x Mikado                                   Identify all wands
 ```
 
-With just a few keystrokes, `cheevy.py` takes care of searching and cross-referencing achievements for you, and keeps your focus on the game.
+With just a few keystrokes, `cheevy.py` takes care of searching and cross-referencing achievements for you, and keeps your focus on the game!📯
