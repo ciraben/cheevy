@@ -3,6 +3,8 @@
 
 A quick CLI tool for grabbing achievements from [TNNT](https://www.hardfought.org/tnnt/) (The November Nethack Tournament).
 
+![Screenshot of cheevy.py used in the terminal.](./sample.png)
+
 ## Installation
 
 Get `cheevy.py` with
