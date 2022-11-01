@@ -156,10 +156,15 @@ def cross_check(label):
 for tag in achievements:
     # string = tag.string.strip()
     innards = tag.text.strip().split('\n')
-    string = innards[1]
+    string = innards[2]
 
     # old get status
     # if tag['class'].__contains__("achieved") or (args.include and cross_check(string)):
+
+#    print(innards)
+#    break
+
+
 
     # new get status
     if innards[0] == "&#10004;" or (args.include and cross_check(string)):
@@ -176,7 +181,7 @@ for tag in achievements:
     # filter search
     if args.search:
         args.search = args.search.lower()
-        if not ((args.search in innards[2].lower()) or (args.search in string.lower())):
+        if not ((args.search in innards[3].lower()) or (args.search in string.lower())):
         # old
         # if not ((args.search in tag['title'].lower()) or (args.search in string.lower())):
             continue
