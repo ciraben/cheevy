@@ -161,13 +161,14 @@ for tag in achievements:
     # old get status
     # if tag['class'].__contains__("achieved") or (args.include and cross_check(string)):
 
-#    print(innards)
-#    break
+#    if string == "Kill it Twice":
+#        print(innards)
+#        break
 
 
 
     # new get status
-    if innards[0] == "&#10004;" or (args.include and cross_check(string)):
+    if innards[0] == "✔" or (args.include and cross_check(string)):
         is_achieved = True
     else:
         is_achieved = False
