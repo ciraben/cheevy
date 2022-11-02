@@ -107,11 +107,15 @@ if args.clan:
     # def has_clan(href):
     #     return href and re.compile("clan\/[0-9]+\.html").search(href)
 
-    # grab the clan page from player source
-    clan = soup.find(href=re.compile('\/clan\/'))["href"]
-    # process it
-    r = requests.get("https://tnnt.org" + clan)
-    soup = BeautifulSoup(r.text, 'html.parser')
+    try:
+        # grab the clan page from player source
+        clan = soup.find(href=re.compile('\/clan\/'))["href"]
+        # process it
+        r = requests.get("https://tnnt.org" + clan)
+        soup = BeautifulSoup(r.text, 'html.parser')
+    except TypeError:
+        print(args.name + " doesn't have a clan.")
+        raise SystemExit
 
 
 # achievements = soup.find_all(class_ = "achieve-item")
