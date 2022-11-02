@@ -139,18 +139,23 @@ if args.include:
     for line in dump:
         # for example,
         # │[X] #V11 "Anti-Stoner" - etc.
-        m = re.search('\[(.)\] #... \"(.+)\"', line)
+        m = re.search('\[(.)\] #... \"(.+)\" - ', line)
         if m:
             title = m.group(2).lower()
             current[title] = True if m.group(1) == 'X' else False
 
-# For the following two achievements, punctuation differs between
+# For the following three achievements, name differs between
 # website text      &      in-game #achievements text:
 #
+# Feel the Burn            We Need To Go Deeper
 # Bell, Book and Candle    Bell, Book, and Candle
 # Boulder Pusher           Boulder-Pusher
+#
+# Here, we change label to the in-game text
 def cross_check(label):
-    if label == "Bell, Book and Candle":
+    if label == "Feel the Burn":
+        label = "We Need To Go Deeper"
+    elif label == "Bell, Book and Candle":
         label = "Bell, Book, and Candle"
     elif label == "Boulder Pusher":
         label = "Boulder-Pusher"
@@ -191,6 +196,9 @@ for tag in achievements:
         # if not ((args.search in tag['title'].lower()) or (args.search in string.lower())):
             continue
 
+
+
+
     # Spelling Test:
     # to use this, make sure dump.txt contains every cheevo :)
     #
@@ -198,6 +206,8 @@ for tag in achievements:
     #     print(string)
     #     # print(string + "    " + list(current.keys())[achievements.index(tag)])
     # continue
+
+
 
 
     # set 37 char limit
