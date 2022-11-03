@@ -179,10 +179,12 @@ for tag in achievements:
     # new get status
     #
     # 2022: "❖" gets used for cheevos in current game
-    if innards[0] in ["✔", "❖"] or (args.include and cross_check(string)):
-        is_achieved = True
+    if innards[0] == "❖" or (args.include and cross_check(string)):
+        is_achieved = 2
+    elif innards[0] == "✔":
+        is_achieved = 1 
     else:
-        is_achieved = False
+        is_achieved = 0
 
     # filter done/undone
     if args.done and not is_achieved:
@@ -218,9 +220,14 @@ for tag in achievements:
     else:
         string_fit = string
     space = " " * (41 - len(string_fit))
-    if is_achieved:
+    if is_achieved == 1:
+        # checkmark
         status = "\033[92m{}\033[00m " .format(u"\u2713")
+    elif is_achieved == 2:
+        # current
+        status = "\033[93m{}\033[00m " .format(u"\u2756")
     else:
+        # cross-out
         status = "\033[91m{}\033[00m " .format("x")
     # print(status + string_fit + space + tag['title'])
     print(status + string_fit + space + innards[-1])
