@@ -177,7 +177,9 @@ for tag in achievements:
 
 
     # new get status
-    if innards[0] == "✔" or (args.include and cross_check(string)):
+    #
+    # 2022: "❖" gets used for cheevos in current game
+    if innards[0] in ["✔", "❖"] or (args.include and cross_check(string)):
         is_achieved = True
     else:
         is_achieved = False
